@@ -254,7 +254,7 @@ namespace Hangman.GameSystem
 				return;
 			}
 
-			if (!allowedCharacters.Contains(guess))
+			if (!m_allowedCharacters.Contains(guess))
 			{
 				m_error = true;
 				m_errorMsg = "Only letters from the latin alphabet are allowed.";
